@@ -106,7 +106,7 @@ public class FilesGenerationAppl {
 	}
 	private static Move getFinalWinnerMove(String sequenceToBeGuessed, Long gameGamerId) {
 		
-		return new Move(moveId++, sequenceToBeGuessed, 4, 0, gameGamerId);
+		return new Move(moveId++, sequenceToBeGuessed,4, 0, gameGamerId);
 	}
 	private static Move getOneNotFinalMove(String sequenceToBeGuessed, Long gameGamerId) {
 		String sequence = "";
